@@ -27,13 +27,28 @@ def see_menu():
     if path.isfile(menu) is False:
         raise Exception("File not found")
 
+
     # Read JSON file
     with open(menu) as fp:
         listObj = json.load(fp)
 
+
     # Verify existing list
     print(listObj)
 
+def prog_Menu():
+    print("Bienvenue dans notre restaurant")
+    print("----------------------------------------------------------------------")
+    print("1-Menu")
+    print("2-prendre une commande")
+    print("3-voir la note d'une table")
 
-# see_menu()
-add_order()
+def main():
+   prog_Menu()
+   choix =input("faites votre choix : ")
+   if choix==1:
+        see_menu()
+   if choix==2:
+        add_order()
+   if choix==3:
+        print("on verra la fonction pour la note")
