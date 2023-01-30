@@ -4,7 +4,7 @@ from os import path
 filename = "data.json"
 list = []
 
-def see_menu():
+def add_order():
 
     if path.isfile(filename) is False:
         raise Exception("File not found")
