@@ -1,7 +1,7 @@
 import json
 from os import path
 
-filename = "C:/Users/Dell/Desktop/formation/agile/resto/data.json"
+filename = "data.json"
 list = []
 
 def see_menu():
