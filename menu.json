@@ -1,6 +1,7 @@
 [
     {
         "Menu": "menu 1",
+<<<<<<< HEAD
         "Prix": 15
     },
     {
@@ -14,6 +15,10 @@
     {
         "Menu": "menu 4",
         "Prix": 33
+=======
+        "Prix": 15,
+        "Qty": 1
+>>>>>>> 4d3490db1f84f5c56a467b9dde4faa59ce835950
     },
     {
         "Menu": "menu 4",

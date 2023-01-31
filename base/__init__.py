@@ -4,6 +4,7 @@ from os import path
 menu = "menu.json"
 orders = "orders.json"
 
+
 def add_order(table):
 
     if path.isfile(orders) is False:
@@ -20,6 +21,7 @@ def add_order(table):
     with open(orders, "w") as json_file:
         json.dump(listOrders, json_file, indent=4, separators=(",", ": "))
 
+
 def see_menu():
 
     if path.isfile(menu) is False:
@@ -32,7 +34,8 @@ def see_menu():
     # Verify existing list
     print(listObj)
 
-def prog_Menu():
+
+def prog_menu():
     print("Bienvenue dans notre restaurant")
     print("----------------------------------------------------------------------")
     print("1-Menu")
@@ -46,6 +49,7 @@ class Table:
         self.numero=numero
         self.menu=menu
         self.addition=addition
+
 
 def main():
    prog_Menu()
@@ -68,5 +72,7 @@ def main():
         print("merci vos commandes ont bien été enregistrées")   
    if choix==3:
         print("on le fera apres")
+
+main()
 
 main()
