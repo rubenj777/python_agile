@@ -3,32 +3,5 @@
         "Menu": "menu 1",
         "Prix": 15,
         "Qty": 1
-<<<<<<< HEAD
-=======
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
-    },
-    {
-        "Menu": "menu 4",
-        "Prix": 33
->>>>>>> 4d3490db1f84f5c56a467b9dde4faa59ce835950
     }
 ]

@@ -52,7 +52,7 @@ class Table:
 
 
 def main():
-   prog_Menu()
+   prog_menu()
    ma_Table=Table()
    choix =int(input("faites votre choix : "))
    if choix==1:
@@ -72,7 +72,5 @@ def main():
         print("merci vos commandes ont bien été enregistrées")   
    if choix==3:
         print("on le fera apres")
-
-main()
-
+        
 main()
